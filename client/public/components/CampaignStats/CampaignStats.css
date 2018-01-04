@@ -1,0 +1,14 @@
+.campaign-name-section {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-section{
+  margin: 0 3px;
+}
+
+.campaigns-dropdown{
+  max-height: 200px;
+  overflow-y: scroll;
+}
