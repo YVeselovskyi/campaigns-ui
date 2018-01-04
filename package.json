@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack -w --config webpack.config.js",
     "start": "node index.js",
-    "dev-server": "nodemon index.js"
+    "dev-server": "nodemon index.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "author": "",
   "license": "ISC",
@@ -25,7 +26,8 @@
     "react-spinkit": "^3.0.0",
     "reactstrap": "^5.0.0-alpha.4",
     "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "webpack": "^3.10.0"    
   },
   "devDependencies": {
     "babel-loader": "^7.1.2",
@@ -40,7 +42,6 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1",
-    "style-loader": "^0.19.1",
-    "webpack": "^3.10.0"
+    "style-loader": "^0.19.1"
   }
 }
