@@ -61,7 +61,7 @@ class CampaignStats extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu className="campaigns-dropdown">
                   {items.map(campaignItem => (
-                    <DropdownItem key={`dropdown-${campaignItem.id}`}>
+                    <DropdownItem key={`dropdown-${campaignItem.id}`} className={campaignItem.id === campaignId ? 'active-campaign' : ''}>
                       <Link to={`/campaigns/${campaignItem.id}`} style={linkStyle}>{campaignItem.name }</Link>
                     </DropdownItem>))}
                 </DropdownMenu>

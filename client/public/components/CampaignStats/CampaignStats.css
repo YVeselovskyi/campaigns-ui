@@ -12,3 +12,7 @@
   max-height: 200px;
   overflow-y: scroll;
 }
+
+.active-campaign{
+  background: #81d4fa;
+}

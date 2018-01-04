@@ -10,7 +10,7 @@ class CampaignsList extends React.Component {
     this.markActivity = this.markActivity.bind(this);
   }
 
-  componentDidMount() {
+  componentWillMount() {
     this.props.getAll();
   }
 

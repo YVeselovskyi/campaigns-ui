@@ -49,7 +49,7 @@ function activateCampaign(id) {
     campaignsService.activateCampaign(id)
       .then(
         campaign => dispatch(success(campaign)),
-        (error) => {          
+        (error) => {
           dispatch(failure(error));
           dispatch(alertActions.error(error));
         },
