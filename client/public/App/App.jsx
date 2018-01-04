@@ -8,10 +8,10 @@ import { alertActions } from '../actions';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    const { dispatch } = this.props;
+    const { clearAlert } = this.props;
     history.listen((location, action) => {
       // clear alert on location change
-      dispatch(alertActions.clear());
+      clearAlert();
     });
   }
   render() {
@@ -24,12 +24,13 @@ class App extends React.Component {
   }
 }
 
-function mapStateToProps(state) {
+const connectedApp = connect((state) => {
   const { alert } = state;
   return {
     alert,
   };
-}
+}, {
+  clearAlert: alertActions.clear,
+})(App);
 
-const connectedApp = connect(mapStateToProps)(App);
 export { connectedApp as App };

@@ -15,6 +15,9 @@ $ npm run dev
 $ npm start 
 ```
 
+You show now be able to view the site at http://localhost:4000 in your browser.
+
+
 For production environments...
 
 ```sh
