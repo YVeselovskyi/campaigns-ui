@@ -26,9 +26,9 @@ $ npm run build
 $ npm start 
 ```
 
-#### To see app working on cloud9 server:
+#### To see app working on now.sh server:
 
-See [Campaigns-UI](https://campaigns-ui-dynamokyiv.c9users.io/)
+Visit [Campaigns-UI](https://campaigns-manager-ui-qlhkwkswqc.now.sh/)
 
 License
 ----
