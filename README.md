@@ -30,6 +30,8 @@ $ npm start
 
 Visit [Campaigns-UI](https://campaigns-manager-ui-qlhkwkswqc.now.sh/)
 
+P.S. Due to lack of traffic now.sh server can freeze app, so just wait a little bit for app to restart after freeze.
+
 License
 ----
 
