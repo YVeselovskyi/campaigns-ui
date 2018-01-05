@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { CampaignsList } from '../CampaignsList/CampaignsList';
 import { CampaignStats } from '../CampaignStats/CampaignStats';
-import { NoMatch} from '../NoMatch/Nomatch';
+import { NoMatch } from '../NoMatch/NoMatch';
 
 const Home = () => (
   <div>
